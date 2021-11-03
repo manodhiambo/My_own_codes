@@ -29,3 +29,4 @@ int main()
 	printf("\nTotal : %d\n", total);
 	printf("\nAverage : %f\n", average);
 	return 0;
+}
