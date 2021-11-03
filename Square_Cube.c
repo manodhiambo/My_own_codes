@@ -14,6 +14,6 @@ int main()
 	scanf("%d", &n);
 	sq=n*n;
 	cub=n*n*n;
-	printf("\nsq: %d\ncub: %d", sq, cub);
+	printf("\nsq: %d\ncub: %d\n", sq, cub);
 	return 0;
 }
