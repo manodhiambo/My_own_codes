@@ -10,11 +10,10 @@
 int main()
 {
 	int n, sq, cub;
-	clscr();
 	printf("Enter the number: ");
 	scanf("%d", &n);
 	sq=n*n;
 	cub=n*n*n;
 	printf("\nsq: %d\ncub: %d", sq, cub);
-	getch();
+	return 0;
 }
