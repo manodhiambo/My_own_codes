@@ -12,17 +12,17 @@ int main()
 {
 	int roll_no, m1, m2, m3, total;
 	float average;
-	printf("Enter the roll number to be added: ");
+	printf("Enter the roll number : ");
 	scanf("%d", &roll_no);
 	printf("Enter marks 1: ");
-	scanf("%d\n", &m1);
+	scanf("%d", &m1);
 	printf("Enter marks 2: ");
-	scanf("%d\n", &m2);
+	scanf("%d", &m2);
 	printf("Enter marks 3: ");
-	scanf("%d\n", &m3);
+	scanf("%d", &m3);
 	total = m1 + m2 + m3;
 	average = total/3.0;
-	printf("\nStudent roll number is : %d\n", roll_no);
+	printf("\nStudent roll number : %d\n", roll_no);
 	printf("\nmark 1 : %d\n", m1);
 	printf("\nmarks 2 : %d\n", m2);
 	printf("\nmarks 3 : %d\n", m3);
