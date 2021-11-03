@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-main()
+int main()
 {
 	int roll_no, m1, m2, m3, total;
 	float average;
@@ -22,7 +22,7 @@ main()
 	scanf("%d\n", &m3);
 	total = m1 + m2 + m3;
 	average = total/3.0;
-	printf("\nStudent roll number is : %d\n", rol_no);
+	printf("\nStudent roll number is : %d\n", roll_no);
 	printf("\nmark 1 : %d\n", m1);
 	printf("\nmarks 2 : %d\n", m2);
 	printf("\nmarks 3 : %d\n", m3);
