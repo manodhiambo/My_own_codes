@@ -11,12 +11,10 @@
 
 int main()
 {
-	int a; 
-	int b;
-	temp;
+	int a, b, temp;
 	printf("Enter the Numbers: ");
 	scanf("%d%d", &a, &b);
-	printf("\nBefore swapping..\na=%d,b=%d");
+	printf("\nBefore swapping..\na=%d,b=%d", a, b);
 	temp=a;
 	a=b;
 	b=temp;
